@@ -1,0 +1,20 @@
+{
+    "name": "GfxModule",
+    "rootNamespace": "",
+    "references": [
+        "GUID:17ae60b04ceb3294782f55f9b1950027",
+        "GUID:1c9a025a101406246a096ac9b1a8cb7d",
+        "GUID:4a3672191abf4684fb67f3d25390d8ec",
+        "GUID:1a14760e4029f9040b2191249bc22a38",
+        "GUID:a1d754e2d4d2ba54589e9eabc6998dbf"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

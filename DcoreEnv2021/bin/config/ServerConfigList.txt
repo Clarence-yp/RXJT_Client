@@ -1,0 +1,31 @@
+STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+机器外网IP	机器内网IP	服务器名称	当前ServerID	ZONE ID	大世界组ID	当前世界ID	key	value	key	value	key	value	key	value	key	value	key	value	key	value	key	value	key	value	key	value	key	value	key	value	key	value	key	value	key	value	key	value
+127.0.0.1	127.0.0.1	第一推动_CENTER	0	0	0	0	端口	20000																														
+127.0.0.1	127.0.0.1	第一推动_大厅	1	0	0	0	开服时间	20140915	状态	程序																												
+127.0.0.1	127.0.0.1	第一推动_STORE	2	0	0	0	DB	127.0.0.1																														
+127.0.0.1	127.0.0.1	第一推动_BRIDGE	3	0	0	0																																
+127.0.0.1	127.0.0.1	第一推动_NODE	4	0	0	0																																
+127.0.0.1	127.0.0.1	第一推动_NODE	5	0	0	0																																
+127.0.0.1	127.0.0.1	第一推动_NODE	6	0	0	0																																
+127.0.0.1	127.0.0.1	第一推动_ROOM	7	0	0	0	端口	9528																														
+127.0.0.1	127.0.0.1	第一推动_ROOM	8	0	0	0	端口	9528																														
+127.0.0.1	127.0.0.1	第一推动_ROOM	9	0	0	0	端口	9528																														
+127.0.0.1	127.0.0.1	第一推动_ROOM	10	0	0	0	端口	9528																														
+127.0.0.1	127.0.0.1	第一推动_ROOM	11	0	0	0	端口	9528																														
+127.0.0.1	127.0.0.1	第一推动_ROOM	12	0	0	0	端口	9528																														
+127.0.0.1	127.0.0.1	第一推动_ROOM	13	0	0	0	端口	9528																														
+127.0.0.1	127.0.0.1	第一推动_ROOM	14	0	0	0	端口	9528																														
+127.0.0.1	127.0.0.1	第一推动_ROOM	15	0	0	0	端口	9528																														
+127.0.0.1	127.0.0.1	第一推动_ROOM	16	0	0	0	端口	9528																														
+127.0.0.1	127.0.0.1	第一推动_ROOM	17	0	0	0	端口	9528																														
+127.0.0.1	127.0.0.1	第一推动_ROOM	18	0	0	0	端口	9528																														
+127.0.0.1	127.0.0.1	第一推动_ROOM	19	0	0	0	端口	9528																														
+127.0.0.1	127.0.0.1	第一推动_ROOM	20	0	0	0	端口	9528																														
+127.0.0.1	127.0.0.1	第一推动_ROOM	21	0	0	0	端口	9528																														
+127.0.0.1	127.0.0.1	第一推动_ROOM	22	0	0	0	端口	9528																														
+127.0.0.1	127.0.0.1	第一推动_ROOM	23	0	0	0	端口	9528																														
+127.0.0.1	127.0.0.1	第一推动_ROOM	24	0	0	0	端口	9528																														
+127.0.0.1	127.0.0.1	第一推动_ROOM	25	0	0	0	端口	9528																														
+127.0.0.1	127.0.0.1	第一推动_ROOM	26	0	0	0	端口	9528																														
+220.181.69.102		BILLING1	90	-1	-1	-1	网络服务商	电信																														
+61.135.183.140		BILLING2	90	-1	-1	-1	网络服务商	网通																														

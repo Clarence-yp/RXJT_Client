@@ -1,0 +1,22 @@
+当前机器外网IP：127.0.0.1
+当前机器配置行:0
+当前SERVER名：第一推动_CENTER
+当前机器信息：[serverid,zoneid,bigworldid,worldid]:0,0,0,0
+center机器配置行:0
+center ip/port:127.0.0.1/20000
+lobby机器配置行:1
+处理状态文件：./config/DiffConf/prog.ini
+配置项处理完成：
+name -> Lobby
+ip -> 127.0.0.1
+port -> 20000
+AppKey -> 1407921103977
+GameChannel -> 1010802002
+LogNormVersion -> v1.8
+UserSaveInterval -> 180000
+DSRequestTimeout -> 60000
+Debug -> 1
+DataStoreFlag -> 0
+LoadThreadNum -> 10
+SaveThreadNum -> 10
+config.scp return 1.

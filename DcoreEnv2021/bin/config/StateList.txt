@@ -1,0 +1,4 @@
+STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+状态名	状态文件							
+测试	./config/DiffConf/test.ini							
+程序	./config/DiffConf/prog.ini							

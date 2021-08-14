@@ -1,0 +1,186 @@
+stateTable=createTxtTable("./config/StateList.txt");
+cfgTable=createConfigTable("./config/ServerConfigList.txt");
+logFile=("./log/config_"+serverType+"_"+getLogFileId()+".log");
+stateName="";
+
+firstNodeJsId = 4;
+firstRoomServerId = 7;
+
+function(log)
+{
+	print(""+$0);
+	writeString(logFile,""+$0);
+};
+
+function(setState)
+{
+	stateName=$0;
+	log("状态名："+$0);
+};
+
+function(handleIni)
+{
+	@iniFile = $0;
+	@stateIni=createIniReader(@iniFile);
+	@num=@stateIni.getInfoCount();
+	for(@ix=0;@ix<@num;++@ix)
+	{
+		@section=@stateIni.getSection(@ix);
+		@key=@stateIni.getKey(@ix);
+		@value=@stateIni.getValue(@ix);
+		if(@section!=""){
+			stringMap.insert(@section+"$$"+@key,@value);
+		}else{
+			stringMap.insert(@key,@value);
+		};
+	};	
+};
+
+function(handleState)
+{
+	if(stateName!="")
+	{
+		@rIndex=stateTable.findRow(2,0,stateName);
+		if(@rIndex>=2)
+		{
+			@colNum=stateTable.getColumnCount();
+			for(@i=1;@i<@colNum;++@i)
+			{
+				@stateFile=stateTable.getCell(@rIndex,@i);
+				if(@stateFile!="")
+				{
+					log("处理状态文件："+@stateFile);
+					handleIni(@stateFile);
+				};
+			};
+		};
+	};
+};
+
+function(main)
+{
+	stringMap.initMap(1000);
+	@ip0=readString("./etc/ip.txt",0);
+	if(@ip0=="")
+	{
+		log("找不到当前机器IP！");		
+	};
+	log("当前机器外网IP："+@ip0);
+	
+	@rIndex=cfgTable.findByIP0(0,@ip0);
+	if(@rIndex>=0)
+	{
+		log("当前机器配置行:"+@rIndex);
+	}
+	else
+	{
+		log("找不到当前机器配置！");
+		return 0;
+	};
+	@sname=cfgTable.getServerName(@rIndex);
+	log("当前SERVER名："+@sname);
+	@sid=cfgTable.getServerID(@rIndex);
+	@zid=cfgTable.getZoneID(@rIndex);
+	@bid=cfgTable.getBigworldID(@rIndex);
+	@wid=cfgTable.getWorldID(@rIndex);
+	log("当前机器信息：[serverid,zoneid,bigworldid,worldid]:"+@sid+","+@zid+","+@bid+","+@wid);
+	//
+	if(serverType=="center"){
+	  stringMap.insert("name","Center");
+	}elseif(serverType=="lobby"){
+	  stringMap.insert("name","Lobby");
+	}elseif(serverType=="store"){
+	  stringMap.insert("name","DataStoreNode");
+	}elseif(serverType=="bridge"){
+	  stringMap.insert("name","ServerBridge");
+	}elseif(serverType=="nodejs"){
+	  if(@sid>=firstNodeJsId && @sid<firstRoomServerId){
+	    stringMap.insert("name","NodeJs"+(@sid-firstNodeJsId+1));
+	  }else{
+	    stringMap.insert("name","NodeJs1");
+	  };
+	}elseif(serverType=="roomserver"){
+	  if(@sid>=firstRoomServerId){
+	    stringMap.insert("name","RoomSvr"+(@sid-firstRoomServerId+1));
+	  }else{
+	    stringMap.insert("name","RoomSvr1");
+	  };
+	};
+	//
+	if(serverType=="roomserver"){
+	  if(@sid<firstRoomServerId){
+    	@rIndex=cfgTable.findByID(0,@zid,@bid,@wid,firstRoomServerId);
+    	if(@rIndex>=0)
+    	{
+    			log("roomserver机器配置行:"+@rIndex);
+    	}
+    	else
+    	{
+    		log("找不到roomserver机器配置！");
+    		return 0;
+    	};		  
+		};
+		@port=cfgTable.getValueByKey(@rIndex,"端口");
+		stringMap.insert("ServerIp",@ip0);
+		stringMap.insert("ServerPort",@port);
+	};
+	
+	//查找center配置
+	@rIndex=cfgTable.findByID(0,@zid,@bid,@wid,0);
+	if(@rIndex>=0)
+	{
+			log("center机器配置行:"+@rIndex);
+	}
+	else
+	{
+		log("找不到center机器配置！");
+		return 0;
+	};
+	@ip1 = cfgTable.getIP1(@rIndex);
+	@port = cfgTable.getValueByKey(@rIndex,"端口");
+	if(serverType=="center"){
+		stringMap.insert("ip","0.0.0.0");
+	}else{
+		stringMap.insert("ip",@ip1);
+	};
+	stringMap.insert("port",@port);
+	log("center ip/port:"+@ip1+"/"+@port);
+		
+	//查找store配置
+	if(serverType=="store"){	  
+  	@rIndex=cfgTable.findByID(0,@zid,@bid,@wid,2);
+  	if(@rIndex>=0)
+  	{
+  			log("store机器配置行:"+@rIndex);
+  	}
+  	else
+  	{
+  		log("找不到store机器配置！");
+  		return 0;
+  	};
+  	@dbIp = cfgTable.getValueByKey(@rIndex,"DB");
+		stringMap.insert("Server",@dbIp);
+	};
+	
+	//加载对应类型服务器的配置
+	handleIni("./config/DiffConf/"+serverType+".ini");
+	//查找lobby配置
+	@rIndex=cfgTable.findByID(0,@zid,@bid,@wid,1);
+	if(@rIndex>=0)
+	{
+			log("lobby机器配置行:"+@rIndex);
+	}
+	else
+	{
+		log("找不到lobby机器配置！");
+		return 0;
+	};
+	stateName=cfgTable.getValueByKey(@rIndex,"状态");
+	
+	handleState();
+	log("配置项处理完成：");
+	stringMap.listMap(logFile);
+	return 1;
+};
+
+return main();

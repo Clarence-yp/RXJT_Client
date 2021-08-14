@@ -1,0 +1,20 @@
+当前机器外网IP：127.0.0.1
+当前机器配置行:0
+当前SERVER名：第一推动_CENTER
+当前机器信息：[serverid,zoneid,bigworldid,worldid]:0,0,0,0
+roomserver机器配置行:7
+center机器配置行:0
+center ip/port:127.0.0.1/20000
+lobby机器配置行:1
+处理状态文件：./config/DiffConf/prog.ini
+配置项处理完成：
+name -> RoomSvr1
+ServerIp -> 127.0.0.1
+ServerPort -> 9528
+ip -> 127.0.0.1
+port -> 20000
+Debug -> 1
+DataStoreFlag -> 0
+LoadThreadNum -> 10
+SaveThreadNum -> 10
+config.scp return 1.

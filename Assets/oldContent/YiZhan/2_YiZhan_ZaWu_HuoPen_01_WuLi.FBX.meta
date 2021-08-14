@@ -1,0 +1,115 @@
+fileFormatVersion: 2
+guid: b9926b88a542ce845b722c90c77e6129
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: 2_YiZhan_ZaWu_HuoPen_01_WuLi
+    100004: 2_YiZhan_ZaWu_HuoPen_02_WuLi
+    100006: 2_YiZhan_ZaWu_HuoPen_03_WuLi
+    100008: 2_YiZhan_ZaWu_HuoPen_04_WuLi
+    100010: 2_YiZhan_ZaWu_HuoPen_05_WuLi
+    100012: 2_YiZhan_ZaWu_HuoPen_06_WuLi
+    100014: 2_YiZhan_ZaWu_HuoPen_07_WuLi
+    100016: 2_YiZhan_ZaWu_HuoPen_08_WuLi
+    100018: 2_YiZhan_ZaWu_HuoPen_09_WuLi
+    100020: 2_YiZhan_ZaWu_HuoPen_10_WuLi
+    100022: 2_YiZhan_ZaWu_HuoPen_11_WuLi
+    400000: //RootNode
+    400002: 2_YiZhan_ZaWu_HuoPen_01_WuLi
+    400004: 2_YiZhan_ZaWu_HuoPen_02_WuLi
+    400006: 2_YiZhan_ZaWu_HuoPen_03_WuLi
+    400008: 2_YiZhan_ZaWu_HuoPen_04_WuLi
+    400010: 2_YiZhan_ZaWu_HuoPen_05_WuLi
+    400012: 2_YiZhan_ZaWu_HuoPen_06_WuLi
+    400014: 2_YiZhan_ZaWu_HuoPen_07_WuLi
+    400016: 2_YiZhan_ZaWu_HuoPen_08_WuLi
+    400018: 2_YiZhan_ZaWu_HuoPen_09_WuLi
+    400020: 2_YiZhan_ZaWu_HuoPen_10_WuLi
+    400022: 2_YiZhan_ZaWu_HuoPen_11_WuLi
+    2300000: 2_YiZhan_ZaWu_HuoPen_01_WuLi
+    2300002: 2_YiZhan_ZaWu_HuoPen_02_WuLi
+    2300004: 2_YiZhan_ZaWu_HuoPen_03_WuLi
+    2300006: 2_YiZhan_ZaWu_HuoPen_04_WuLi
+    2300008: 2_YiZhan_ZaWu_HuoPen_05_WuLi
+    2300010: 2_YiZhan_ZaWu_HuoPen_06_WuLi
+    2300012: 2_YiZhan_ZaWu_HuoPen_07_WuLi
+    2300014: 2_YiZhan_ZaWu_HuoPen_08_WuLi
+    2300016: 2_YiZhan_ZaWu_HuoPen_09_WuLi
+    2300018: 2_YiZhan_ZaWu_HuoPen_10_WuLi
+    2300020: 2_YiZhan_ZaWu_HuoPen_11_WuLi
+    3300000: 2_YiZhan_ZaWu_HuoPen_01_WuLi
+    3300002: 2_YiZhan_ZaWu_HuoPen_02_WuLi
+    3300004: 2_YiZhan_ZaWu_HuoPen_03_WuLi
+    3300006: 2_YiZhan_ZaWu_HuoPen_04_WuLi
+    3300008: 2_YiZhan_ZaWu_HuoPen_05_WuLi
+    3300010: 2_YiZhan_ZaWu_HuoPen_06_WuLi
+    3300012: 2_YiZhan_ZaWu_HuoPen_07_WuLi
+    3300014: 2_YiZhan_ZaWu_HuoPen_08_WuLi
+    3300016: 2_YiZhan_ZaWu_HuoPen_09_WuLi
+    3300018: 2_YiZhan_ZaWu_HuoPen_10_WuLi
+    3300020: 2_YiZhan_ZaWu_HuoPen_11_WuLi
+    4300000: 2_YiZhan_ZaWu_HuoPen_02_WuLi
+    4300002: 2_YiZhan_ZaWu_HuoPen_01_WuLi
+    4300004: 2_YiZhan_ZaWu_HuoPen_03_WuLi
+    4300006: 2_YiZhan_ZaWu_HuoPen_04_WuLi
+    4300008: 2_YiZhan_ZaWu_HuoPen_05_WuLi
+    4300010: 2_YiZhan_ZaWu_HuoPen_06_WuLi
+    4300012: 2_YiZhan_ZaWu_HuoPen_07_WuLi
+    4300014: 2_YiZhan_ZaWu_HuoPen_08_WuLi
+    4300016: 2_YiZhan_ZaWu_HuoPen_09_WuLi
+    4300018: 2_YiZhan_ZaWu_HuoPen_10_WuLi
+    4300020: 2_YiZhan_ZaWu_HuoPen_11_WuLi
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 0
+  animationType: 0
+  userData: 

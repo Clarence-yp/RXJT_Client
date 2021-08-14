@@ -1,0 +1,27 @@
+{
+    "group": "CYMGSDK",
+    "libs": ["libstdc++.dylib","libz.dylib","libsqlite3.0.dylib"],
+    "frameworks": ["CoreTelephony.framework","Security.framework","AdSupport.framework","MobileCoreServices.framework"],
+    "headerpaths": [],
+    "files":   ["CYMGSDK/Cylib.h#",
+				"CYMGSDK/CYMGSDK.h#",
+				"CYMGSDK/libCylib.a#",
+				"CYMGSDK/libCyouMobileGameSDK.a#",
+				"CYMGSDK/JSONKit.h#",
+				"CYMGSDK/JSONKit.m#",
+				"CYMGSDK/ThirdPartyImport/0.png#", 
+				"CYMGSDK/ThirdPartyImport/AlipaySDK.bundle#", 
+				"CYMGSDK/ThirdPartyImport/AlipaySDK.framework#", 
+				"CYMGSDK/ThirdPartyImport/TencentOpenAPI.framework#", 
+				"CYMGSDK/ResourceBundles/CYMGResources.bundle#",
+				"CYMGSDK/ResourceBundles/CYMGUSERResources.bundle#",
+				"CYMGSDK/ResourceBundles/TencentOpenApi_IOS_Bundle.bundle#",
+				"CYMGSDK/ResourceBundles/WeiboSDK.bundle#"
+				],
+    "folders": ["CYMGSDK/ThirdPartyImport/openssl#", 
+				"CYMGSDK/ThirdPartyImport/YLSDK#"
+				],    
+    "excludes": ["^.*.meta$", "^.*.mdown$", "^.*.pdf$"],
+    "compiler_flags": [],
+    "linker_flags": ["-ObjC"]
+}

@@ -1,0 +1,8 @@
+﻿Index	Name	Value
+1	Upper	2400
+2	Lower	2000
+3	K2_1	130
+4	K2_2	20
+5	K1	10
+6	K3	30
+7	TC	10000

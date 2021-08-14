@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Water_RefWithTex1
+  m_Shader: {fileID: 4800000, guid: dee62b78fdc647f4fa620cfe019b3c03, type: 3}
+  m_ShaderKeywords: []
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _Normal
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ReflectionTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: 200
+      data:
+        first:
+          name: _MainAlpha
+        second: .800000012
+      data:
+        first:
+          name: _ReflectionBias
+        second: .00999999978
+      data:
+        first:
+          name: _ReflectionAlpha
+        second: 1
+      data:
+        first:
+          name: _FogStrength
+        second: .300000012
+      data:
+        first:
+          name: _FogShininess
+        second: 2
+      data:
+        first:
+          name: _InvFadeParemeter
+        second: .0399999991
+    m_Colors:
+      data:
+        first:
+          name: _MainColor
+        second: {r: .113700002, g: .400000006, b: .310000002, a: 1}
+      data:
+        first:
+          name: _FogColor
+        second: {r: .109999999, g: .109999999, b: .319999993, a: 1}
+      data:
+        first:
+          name: _DirectionUv
+        second: {r: 2, g: 2, b: 0, a: -1}
+      data:
+        first:
+          name: _TexAtlasTiling
+        second: {r: 8, g: 8, b: 20, a: 20}
+      data:
+        first:
+          name: _SunPos
+        second: {r: 0, g: 0, b: 0, a: 0}

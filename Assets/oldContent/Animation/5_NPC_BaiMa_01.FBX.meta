@@ -1,0 +1,185 @@
+fileFormatVersion: 2
+guid: b8b6a7e9cbc1b7742b72dfc0562f10df
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: 5_NPC_BaiMa_01
+    100002: //RootNode
+    100004: APControl
+    100006: Head
+    100008: Head_End
+    100010: Hips
+    100012: LeftArm
+    100014: LeftFoot
+    100016: LeftForeArm
+    100018: LeftHand
+    100020: LeftHandThumb
+    100022: LeftHorseLink
+    100024: LeftLeg
+    100026: LeftPonytail
+    100028: LeftShoulder
+    100030: LeftToeBase
+    100032: LeftUpLeg
+    100034: Neck
+    100036: Neck1
+    100038: Pelvis
+    100040: Reference
+    100042: RightArm
+    100044: RightFoot
+    100046: RightForeArm
+    100048: RightHand
+    100050: RightHandThumb
+    100052: RightHorseLink
+    100054: RightLeg
+    100056: RightPonytail
+    100058: RightShoulder
+    100060: RightToeBase
+    100062: RightUpLeg
+    100064: Spine
+    100066: Spine1
+    100068: Spine2
+    100070: Tail
+    100072: Tail1
+    100074: Tail2
+    100076: Tail3
+    100078: Bip01 Footsteps
+    100080: LeftHandThumb_End
+    100082: LeftPonytail_End
+    100084: LeftToeBase_End
+    100086: Particle View 01
+    100088: RightHandThumb_End
+    100090: RightPonytail_End
+    100092: RightToeBase_End
+    100094: Tail3_End
+    400000: //RootNode
+    400002: 5_NPC_BaiMa_01
+    400004: APControl
+    400006: Head
+    400008: Head_End
+    400010: Hips
+    400012: LeftArm
+    400014: LeftFoot
+    400016: LeftForeArm
+    400018: LeftHand
+    400020: LeftHandThumb
+    400022: LeftHorseLink
+    400024: LeftLeg
+    400026: LeftPonytail
+    400028: LeftShoulder
+    400030: LeftToeBase
+    400032: LeftUpLeg
+    400034: Neck
+    400036: Neck1
+    400038: Pelvis
+    400040: Reference
+    400042: RightArm
+    400044: RightFoot
+    400046: RightForeArm
+    400048: RightHand
+    400050: RightHandThumb
+    400052: RightHorseLink
+    400054: RightLeg
+    400056: RightPonytail
+    400058: RightShoulder
+    400060: RightToeBase
+    400062: RightUpLeg
+    400064: Spine
+    400066: Spine1
+    400068: Spine2
+    400070: Tail
+    400072: Tail1
+    400074: Tail2
+    400076: Tail3
+    400078: Bip01 Footsteps
+    400080: LeftHandThumb_End
+    400082: LeftPonytail_End
+    400084: LeftToeBase_End
+    400086: Particle View 01
+    400088: RightHandThumb_End
+    400090: RightPonytail_End
+    400092: RightToeBase_End
+    400094: Tail3_End
+    2300000: APControl
+    2300002: Reference
+    3300000: APControl
+    3300002: Reference
+    4300000: 5_NPC_BaiMa_01
+    4300002: Reference
+    4300004: APControl
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: 5_NPC_BaiMa_01
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: Take 001
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 256
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400002}
+  - 114: {fileID: 11400000}
+  m_Layer: 9
+  m_Name: Pointing
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d166255cacf07b4292b8402b3ddefc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 1
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 53.0816269
+      outSlope: 53.0816269
+      tangentMode: 0
+    - time: .0537399948
+      value: .999757171
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: .124613017
+      value: .00241396553
+      inSlope: -28.8490944
+      outSlope: 11.8241053
+      tangentMode: 1
+    - time: .191884547
+      value: .611361384
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: .251469016
+      value: .00142247626
+      inSlope: -18.5664616
+      outSlope: 15.1616192
+      tangentMode: 1
+    - time: .31006524
+      value: .371669352
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: .365746945
+      value: .00307057193
+      inSlope: -11.8288679
+      outSlope: 7.00679255
+      tangentMode: 1
+    - time: .411363959
+      value: .206885546
+      inSlope: .00522471964
+      outSlope: .00522471964
+      tangentMode: 1
+    - time: .455341548
+      value: .0024189814
+      inSlope: -8.61635685
+      outSlope: 4.86491346
+      tangentMode: 1
+    - time: .491767675
+      value: .0848305076
+      inSlope: .00300700776
+      outSlope: .00300700776
+      tangentMode: 1
+    - time: .527552009
+      value: .000781780807
+      inSlope: -5.22626638
+      outSlope: .784621298
+      tangentMode: 1
+    - time: .572238743
+      value: .0307581946
+      inSlope: .00469823135
+      outSlope: .00469823135
+      tangentMode: 1
+    - time: .615667522
+      value: .00108274014
+      inSlope: -1.01681626
+      outSlope: .00433181413
+      tangentMode: 1
+    - time: 1.00014055
+      value: .00193274021
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 2.29999995
+  steeperCurves: 0
+  tweenGroup: 0
+  onFinished: []
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 20, y: 30, z: 0}
+  to: {x: 20, y: 60, z: 0}
+  worldSpace: 0
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  rightAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  bottomAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  topAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mWidth: 38
+  mHeight: 38
+  mDepth: 100
+  autoResizeBoxCollider: 0
+  hideIfOffScreen: 0
+  keepAspectRatio: 0
+  aspectRatio: 1
+  mAtlas: {fileID: 11400000, guid: d88aad6d39bb2744ab51e279ef1a01d0, type: 2}
+  mSpriteName: N
+  mType: 0
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
+  mFlip: 0
+  mFillCenter: 1
+  centerType: 1
+  leftType: 1
+  rightType: 1
+  bottomType: 1
+  topType: 1
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

@@ -1,0 +1,284 @@
+fileFormatVersion: 2
+guid: eca7dec5907d7654bb85ebc4a1901a8c
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: 2_DG_JYMen_03_01
+    100002: 2_DG_JYMen_03_012
+    100004: 2_DG_JYMen_03_013
+    100006: 2_DG_JYMen_03_014
+    100008: 2_DG_JYMen_03_015
+    100010: 2_DG_JYMen_03_016
+    100012: 2_DG_JYMen_03_017
+    100014: 2_DG_JYMen_03_02
+    100016: 2_DG_JYMen_03_03
+    100018: 2_DG_JYMen_03_04
+    100020: 2_DG_JYMen_03_05
+    100022: 2_DG_JYMen_03_06
+    100024: 2_DG_JYMen_03_07
+    100026: 2_DG_JYMen_03_08
+    100028: 2_DG_JYMen_03_09
+    100030: 2_DG_JYMen_03_10
+    100032: 2_DG_JYMen_03_11
+    100034: //RootNode
+    100036: 5_Mon_SWJBlade_01
+    100038: 5_Mon_SWJBlade_01_w_01
+    100040: 5_Mon_SWJBlade_01_w_02
+    100042: Bip001
+    100044: Bip001 Head
+    100046: Bip001 HeadNub
+    100048: Bip001 L Calf
+    100050: Bip001 L Clavicle
+    100052: Bip001 L Foot
+    100054: Bip001 L Forearm
+    100056: Bip001 L Hand
+    100058: Bip001 L Thigh
+    100060: Bip001 L Toe0
+    100062: Bip001 L Toe0Nub
+    100064: Bip001 L UpperArm
+    100066: Bip001 Neck
+    100068: Bip001 Pelvis
+    100070: Bip001 R Calf
+    100072: Bip001 R Clavicle
+    100074: Bip001 R Foot
+    100076: Bip001 R Forearm
+    100078: Bip001 R Hand
+    100080: Bip001 R Thigh
+    100082: Bip001 R Toe0
+    100084: Bip001 R Toe0Nub
+    100086: Bip001 R UpperArm
+    100088: Bip001 Spine
+    100090: Bip001 Spine1
+    100092: Bone001
+    100094: Bone002
+    100096: Bone003
+    100098: Bone004
+    100100: Bone005
+    100102: Bone007
+    100104: Bone008
+    100106: Bone009
+    100108: Bone010
+    100110: Bone011
+    100112: Bone012
+    100114: Bone013
+    100116: Bone014
+    100118: Bone015
+    100120: Bone_Root
+    100122: Dummy001
+    100124: Dummy002
+    100126: ef_back
+    100128: ef_body
+    100130: ef_chesst
+    100132: ef_head
+    100134: ef_leftfoot
+    100136: ef_lefthand
+    100138: ef_neck
+    100140: ef_rightfoot
+    100142: ef_sign
+    400000: 2_DG_JYMen_03_01
+    400002: 2_DG_JYMen_03_012
+    400004: 2_DG_JYMen_03_013
+    400006: 2_DG_JYMen_03_014
+    400008: 2_DG_JYMen_03_015
+    400010: 2_DG_JYMen_03_016
+    400012: 2_DG_JYMen_03_017
+    400014: 2_DG_JYMen_03_02
+    400016: 2_DG_JYMen_03_03
+    400018: 2_DG_JYMen_03_04
+    400020: 2_DG_JYMen_03_05
+    400022: 2_DG_JYMen_03_06
+    400024: 2_DG_JYMen_03_07
+    400026: 2_DG_JYMen_03_08
+    400028: 2_DG_JYMen_03_09
+    400030: 2_DG_JYMen_03_10
+    400032: 2_DG_JYMen_03_11
+    400034: //RootNode
+    400036: 5_Mon_SWJBlade_01
+    400038: 5_Mon_SWJBlade_01_w_01
+    400040: 5_Mon_SWJBlade_01_w_02
+    400042: Bip001
+    400044: Bip001 Head
+    400046: Bip001 HeadNub
+    400048: Bip001 L Calf
+    400050: Bip001 L Clavicle
+    400052: Bip001 L Foot
+    400054: Bip001 L Forearm
+    400056: Bip001 L Hand
+    400058: Bip001 L Thigh
+    400060: Bip001 L Toe0
+    400062: Bip001 L Toe0Nub
+    400064: Bip001 L UpperArm
+    400066: Bip001 Neck
+    400068: Bip001 Pelvis
+    400070: Bip001 R Calf
+    400072: Bip001 R Clavicle
+    400074: Bip001 R Foot
+    400076: Bip001 R Forearm
+    400078: Bip001 R Hand
+    400080: Bip001 R Thigh
+    400082: Bip001 R Toe0
+    400084: Bip001 R Toe0Nub
+    400086: Bip001 R UpperArm
+    400088: Bip001 Spine
+    400090: Bip001 Spine1
+    400092: Bone001
+    400094: Bone002
+    400096: Bone003
+    400098: Bone004
+    400100: Bone005
+    400102: Bone007
+    400104: Bone008
+    400106: Bone009
+    400108: Bone010
+    400110: Bone011
+    400112: Bone012
+    400114: Bone013
+    400116: Bone014
+    400118: Bone015
+    400120: Bone_Root
+    400122: Dummy001
+    400124: Dummy002
+    400126: ef_back
+    400128: ef_body
+    400130: ef_chesst
+    400132: ef_head
+    400134: ef_leftfoot
+    400136: ef_lefthand
+    400138: ef_neck
+    400140: ef_rightfoot
+    400142: ef_sign
+    2300000: 2_DG_JYMen_03_01
+    2300002: 2_DG_JYMen_03_012
+    2300004: 2_DG_JYMen_03_013
+    2300006: 2_DG_JYMen_03_014
+    2300008: 2_DG_JYMen_03_015
+    2300010: 2_DG_JYMen_03_016
+    2300012: 2_DG_JYMen_03_017
+    2300014: 2_DG_JYMen_03_02
+    2300016: 2_DG_JYMen_03_03
+    2300018: 2_DG_JYMen_03_04
+    2300020: 2_DG_JYMen_03_05
+    2300022: 2_DG_JYMen_03_06
+    2300024: 2_DG_JYMen_03_07
+    2300026: 2_DG_JYMen_03_08
+    2300028: 2_DG_JYMen_03_09
+    2300030: 2_DG_JYMen_03_10
+    2300032: 2_DG_JYMen_03_11
+    2300034: 5_Mon_SWJBlade_01_w_01
+    2300036: 5_Mon_SWJBlade_01_w_02
+    3300000: 2_DG_JYMen_03_01
+    3300002: 2_DG_JYMen_03_012
+    3300004: 2_DG_JYMen_03_013
+    3300006: 2_DG_JYMen_03_014
+    3300008: 2_DG_JYMen_03_015
+    3300010: 2_DG_JYMen_03_016
+    3300012: 2_DG_JYMen_03_017
+    3300014: 2_DG_JYMen_03_02
+    3300016: 2_DG_JYMen_03_03
+    3300018: 2_DG_JYMen_03_04
+    3300020: 2_DG_JYMen_03_05
+    3300022: 2_DG_JYMen_03_06
+    3300024: 2_DG_JYMen_03_07
+    3300026: 2_DG_JYMen_03_08
+    3300028: 2_DG_JYMen_03_09
+    3300030: 2_DG_JYMen_03_10
+    3300032: 2_DG_JYMen_03_11
+    3300034: 5_Mon_SWJBlade_01_w_01
+    3300036: 5_Mon_SWJBlade_01_w_02
+    4300000: 2_DG_JYMen_03_02
+    4300002: 2_DG_JYMen_03_01
+    4300004: 2_DG_JYMen_03_05
+    4300006: 2_DG_JYMen_03_012
+    4300008: 2_DG_JYMen_03_013
+    4300010: 2_DG_JYMen_03_04
+    4300012: 2_DG_JYMen_03_11
+    4300014: 2_DG_JYMen_03_07
+    4300016: 2_DG_JYMen_03_03
+    4300018: 2_DG_JYMen_03_09
+    4300020: 2_DG_JYMen_03_10
+    4300022: 2_DG_JYMen_03_08
+    4300024: 2_DG_JYMen_03_06
+    4300026: 2_DG_JYMen_03_014
+    4300028: 2_DG_JYMen_03_015
+    4300030: 5_Mon_SWJBlade_01_w_02
+    4300032: 2_DG_JYMen_03_016
+    4300034: 2_DG_JYMen_03_017
+    4300036: 5_Mon_SWJBlade_01
+    4300038: 5_Mon_SWJBlade_01_w_01
+    7400000: Cut_01
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: 5_Mon_SWJBlade_01
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 2
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: Cut_01
+      takeName: Take 001
+      firstFrame: 138
+      lastFrame: 175
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

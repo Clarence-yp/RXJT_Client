@@ -1,0 +1,17 @@
+{
+    "name": "GfxLogicBridge",
+    "rootNamespace": "",
+    "references": [
+        "GUID:17ae60b04ceb3294782f55f9b1950027",
+        "GUID:a3bbebc08d78e8a43b4d8e0a5026e5b9"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

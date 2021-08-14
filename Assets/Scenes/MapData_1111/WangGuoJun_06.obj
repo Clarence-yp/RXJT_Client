@@ -1,0 +1,31 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 30.06.2014 10:20:25
+
+mtllib WangGuoJun_07.mtl
+
+#
+# object default
+#
+
+v  0.0000 24.2446 -0.0000
+v  0.0000 24.2446 93.3633
+v  93.3633 24.2446 -0.0000
+v  93.3633 24.2446 93.3633
+# 4 vertices
+
+vn 0.0000 1.0000 -0.0000
+# 1 vertex normals
+
+vt 0.0000 0.0000 0.0000
+vt 1.0000 -0.0000 0.0000
+vt 0.0000 1.0000 0.0000
+vt 1.0000 1.0000 0.0000
+# 4 texture coords
+
+g default
+usemtl _WangGuoJun_06default
+s 1
+f 1/1/1 2/2/1 3/3/1 
+f 2/2/1 4/4/1 3/3/1 
+# 0 polygons - 2 triangles
+

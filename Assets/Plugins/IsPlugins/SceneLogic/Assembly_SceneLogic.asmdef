@@ -1,0 +1,17 @@
+{
+    "name": "SceneLogic",
+    "rootNamespace": "",
+    "references": [
+        "GUID:17ae60b04ceb3294782f55f9b1950027",
+        "GUID:1c9a025a101406246a096ac9b1a8cb7d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

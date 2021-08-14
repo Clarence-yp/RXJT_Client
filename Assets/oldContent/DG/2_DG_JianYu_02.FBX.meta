@@ -1,0 +1,130 @@
+fileFormatVersion: 2
+guid: a9f17ee791039964f8144856ede210aa
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: 2_DG_JianYu_09
+    100004: 2_DG_JianYu_10
+    100006: 2_DG_JianYu_10 1
+    100008: 2_DG_JianYu_11
+    100010: 2_DG_JianYu_11_01
+    100012: 2_DG_JianYu_11_02
+    100014: 2_DG_JianYu_11_03
+    100016: 2_DG_JianYu_02_01
+    100018: 2_DG_JianYu_02_02
+    100020: 2_DG_JianYu_02_03
+    100022: 2_DG_JianYu_02_04
+    100024: 2_DG_JianYu_02_05
+    100026: 2_DG_JianYu_02_06
+    100028: 2_DG_JianYu_02_07
+    400000: //RootNode
+    400002: 2_DG_JianYu_09
+    400004: 2_DG_JianYu_10
+    400006: 2_DG_JianYu_10 1
+    400008: 2_DG_JianYu_11
+    400010: 2_DG_JianYu_11_01
+    400012: 2_DG_JianYu_11_02
+    400014: 2_DG_JianYu_11_03
+    400016: 2_DG_JianYu_02_01
+    400018: 2_DG_JianYu_02_02
+    400020: 2_DG_JianYu_02_03
+    400022: 2_DG_JianYu_02_04
+    400024: 2_DG_JianYu_02_05
+    400026: 2_DG_JianYu_02_06
+    400028: 2_DG_JianYu_02_07
+    2300000: 2_DG_JianYu_09
+    2300002: 2_DG_JianYu_10
+    2300004: 2_DG_JianYu_10 1
+    2300006: 2_DG_JianYu_11
+    2300008: 2_DG_JianYu_11_01
+    2300010: 2_DG_JianYu_11_02
+    2300012: 2_DG_JianYu_11_03
+    2300014: 2_DG_JianYu_02_01
+    2300016: 2_DG_JianYu_02_02
+    2300018: 2_DG_JianYu_02_03
+    2300020: 2_DG_JianYu_02_04
+    2300022: 2_DG_JianYu_02_05
+    2300024: 2_DG_JianYu_02_06
+    2300026: 2_DG_JianYu_02_07
+    3300000: 2_DG_JianYu_09
+    3300002: 2_DG_JianYu_10
+    3300004: 2_DG_JianYu_10 1
+    3300006: 2_DG_JianYu_11
+    3300008: 2_DG_JianYu_11_01
+    3300010: 2_DG_JianYu_11_02
+    3300012: 2_DG_JianYu_11_03
+    3300014: 2_DG_JianYu_02_01
+    3300016: 2_DG_JianYu_02_02
+    3300018: 2_DG_JianYu_02_03
+    3300020: 2_DG_JianYu_02_04
+    3300022: 2_DG_JianYu_02_05
+    3300024: 2_DG_JianYu_02_06
+    3300026: 2_DG_JianYu_02_07
+    4300000: 2_DG_JianYu_09
+    4300002: 2_DG_JianYu_10
+    4300004: 2_DG_JianYu_10
+    4300006: 2_DG_JianYu_11
+    4300008: 2_DG_JianYu_11_01
+    4300010: 2_DG_JianYu_11_03
+    4300012: 2_DG_JianYu_11_02
+    4300014: 2_DG_JianYu_02_01
+    4300016: 2_DG_JianYu_02_03
+    4300018: 2_DG_JianYu_02_04
+    4300020: 2_DG_JianYu_02_02
+    4300022: 2_DG_JianYu_02_05
+    4300024: 2_DG_JianYu_02_06
+    4300026: 2_DG_JianYu_02_07
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 0
+  userData: 
