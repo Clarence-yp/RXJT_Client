@@ -468,7 +468,6 @@ namespace DashFire
                     }
                     else if (this.IsPureClientScene() || IsPveScene())
                     {
-                        UnityEngine.Debug.LogError("单机游戏逻辑启动");
                         //单机游戏逻辑启动
                         CreateSceneLogics();
                         if (IsExpeditionScene())
@@ -954,12 +953,6 @@ namespace DashFire
 
                     user = CreatePlayerSelf(1, NetworkSystem.Instance.HeroId);
                     user.SetCampId(NetworkSystem.Instance.CampId);
-                    /*Data_Unit unit = m_CurScene.StaticData.ExtractData(DataMap_Type.DT_Unit, GlobalVariables.GetUnitIdByCampId(NetworkSystem.Instance.CampId)) as Data_Unit;
-                    if (null != unit) {
-                      user.GetMovementStateInfo().SetPosition(unit.m_Pos);
-                      user.GetMovementStateInfo().SetFaceDir(unit.m_RotAngle);
-                      user.SetHp(Operate_Type.OT_Absolute, 1000);
-                    }*/
                     user.GetMovementStateInfo().SetPosition(pos);
                     user.GetMovementStateInfo().SetFaceDir(dir);
                     user.SetHp(Operate_Type.OT_Absolute, hp);
@@ -980,7 +973,6 @@ namespace DashFire
 
         public void StartGame()
         {
-            UnityEngine.Debug.LogError("AA StartGame StartGame");
             m_SceneStartTime = TimeUtility.GetServerMilliseconds();
             UserInfo user = GetPlayerSelf();
             if (null != user)

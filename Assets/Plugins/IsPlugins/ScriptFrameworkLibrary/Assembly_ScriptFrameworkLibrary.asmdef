@@ -1,10 +1,7 @@
 {
-    "name": "SpatialSystem",
+    "name": "ScriptFrameworkLibrary",
     "rootNamespace": "",
-    "references": [
-        "GUID:17ae60b04ceb3294782f55f9b1950027",
-        "GUID:605e81ab05e07444695e430a151ce0f3"
-    ],
+    "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": true,

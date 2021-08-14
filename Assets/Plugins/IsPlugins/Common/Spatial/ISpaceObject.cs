@@ -1,13 +1,3 @@
-/**
- * @file   ISpaceObject.cs
- * @author carl <zhangnaisheng@cyou-inc.com>
- * @date   Wed Apr 24 10:07:18 2013
- * 
- * @brief  collide module object need implement this interface.
- * 
- * 
- */
-
 using System;
 using System.Collections.Generic;
 using ScriptRuntime;

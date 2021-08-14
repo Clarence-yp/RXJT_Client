@@ -1140,20 +1140,16 @@ namespace DashFire
             int id = GetGameObjectId(obj);
             return id > 0;
         }
-        internal GameObject PlayerSelf
-        {
-            get
-            {
+        internal GameObject PlayerSelf {
+            get {
                 if (null != m_PlayerSelf)
                     return m_PlayerSelf.ObjectInstance;
                 else
                     return null;
             }
         }
-        internal SharedGameObjectInfo PlayerSelfInfo
-        {
-            get
-            {
+        internal SharedGameObjectInfo PlayerSelfInfo {
+            get {
                 if (null != m_PlayerSelf)
                     return m_PlayerSelf.ObjectInfo;
                 else
@@ -1182,13 +1178,11 @@ namespace DashFire
         {
             return (float)(dir * 180 / Math.PI);
         }
-        internal bool SceneResourcePrepared
-        {
+        internal bool SceneResourcePrepared {
             get { return m_SceneResourcePrepared; }
             set { m_SceneResourcePrepared = value; }
         }
-        internal float SceneResourcePreparedProgress
-        {
+        internal float SceneResourcePreparedProgress {
             get { return m_SceneResourcePreparedProgress; }
             set { m_SceneResourcePreparedProgress = value; }
         }
@@ -1251,8 +1245,7 @@ namespace DashFire
             }
             return null;
         }
-        internal IActionQueue LogicInvoker
-        {
+        internal IActionQueue LogicInvoker {
             get { return m_LogicInvoker; }
         }
         internal void QueueLogicActionWithDelegation(Delegate action, params object[] args)
@@ -1276,21 +1269,17 @@ namespace DashFire
                 m_LogicInvoker.QueueActionWithDelegation((MyAction<string, string, object[]>)ProxyPublishLogicEventImpl, evt, group, args);
             }
         }
-        internal PublishSubscribeSystem EventChannelForGfx
-        {
+        internal PublishSubscribeSystem EventChannelForGfx {
             get { return m_EventChannelForGfx; }
         }
-        internal IGameLogicNotification GameLogicNotification
-        {
+        internal IGameLogicNotification GameLogicNotification {
             get { return m_GameLogicNotification; }
         }
-        internal BeforeLoadSceneDelegation OnBeforeLoadScene
-        {
+        internal BeforeLoadSceneDelegation OnBeforeLoadScene {
             get { return m_OnBeforeLoadScene; }
             set { m_OnBeforeLoadScene = value; }
         }
-        internal AfterLoadSceneDelegation OnAfterLoadScene
-        {
+        internal AfterLoadSceneDelegation OnAfterLoadScene {
             get { return m_OnAfterLoadScene; }
             set { m_OnAfterLoadScene = value; }
         }

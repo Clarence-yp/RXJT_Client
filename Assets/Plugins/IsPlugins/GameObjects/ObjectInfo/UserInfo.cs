@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-//using System.Diagnostics;
+using System.Diagnostics;
 using ScriptRuntime;
 using DashFireSpatial;
 
@@ -11,31 +11,24 @@ namespace DashFire
         public delegate ImpactInfo SendImpactToSelfDelegation(int impactId);
         public delegate void StopMyImpactDelegation(int impactId);
 
-        public object CustomData
-        {
-            get
-            {
+        public object CustomData {
+            get {
                 return m_CustomData;
             }
-            set
-            {
+            set {
                 m_CustomData = value;
             }
         }
 
-        public float Scale
-        {
+        public float Scale {
             get { return m_Scale; }
         }
 
-        public long ReviveTime
-        {
-            get
-            {
+        public long ReviveTime {
+            get {
                 return m_ReviveTime;
             }
-            set
-            {
+            set {
                 m_ReviveTime = value;
             }
         }
@@ -44,40 +37,32 @@ namespace DashFire
         {
             return m_IndicatorEffect;
         }
-        public Vector3 RevivePoint
-        {
+        public Vector3 RevivePoint {
             get { return m_RevivePoint; }
             set { m_RevivePoint = value; }
         }
 
-        public int Money
-        {
+        public int Money {
             get { return m_Money; }
             set { m_Money = value; }
         }
 
-        public int[] AiEquipment
-        {
+        public int[] AiEquipment {
             get { return m_AiEquipment; }
         }
-        public int[] AiAttackSkill
-        {
+        public int[] AiAttackSkill {
             get { return m_AiAttackSkill; }
         }
-        public int[] AiMoveSkill
-        {
+        public int[] AiMoveSkill {
             get { return m_AiMoveSkill; }
         }
-        public int[] AiControlSkill
-        {
+        public int[] AiControlSkill {
             get { return m_AiControlSkill; }
         }
-        public int[] AiSelfAssitSkill
-        {
+        public int[] AiSelfAssitSkill {
             get { return m_AiSelfAssitSkill; }
         }
-        public int[] AiTeamAssitSkill
-        {
+        public int[] AiTeamAssitSkill {
             get { return m_AiTeamAssitSkill; }
         }
 
@@ -334,8 +319,7 @@ namespace DashFire
         {
             m_NickName = nickname;
         }
-        public float IndicatorDis
-        {
+        public float IndicatorDis {
             get { return m_IndicatorDis; }
         }
         private float m_Scale = 1.0f;

@@ -72,8 +72,7 @@ namespace DashFire
         /**
          * @brief 是否包含数据
          */
-        public bool HasFields
-        {
+        public bool HasFields {
             get { return (m_Data != null && m_Data.Count > 0); }
         }
 
@@ -184,16 +183,14 @@ namespace DashFire
         /**
          * @brief 返回行号
          */
-        public int RowIndex
-        {
+        public int RowIndex {
             get { return m_RowIndex; }
         }
 
         /**
          * @brief 读取数据列表
          */
-        public List<string> Data
-        {
+        public List<string> Data {
             get { return m_Data; }
             set { m_Data = value; }
         }
@@ -282,32 +279,28 @@ namespace DashFire
         /**
          * @brief 返回行数
          */
-        public int RowNum
-        {
+        public int RowNum {
             get { return m_RowNum; }
         }
 
         /**
          * @brief 返回列数
          */
-        public int ColumnNum
-        {
+        public int ColumnNum {
             get { return m_ColumNum; }
         }
 
         /**
          * @brief 返回标题名列表
          */
-        public List<string> Header
-        {
+        public List<string> Header {
             get { return m_Header; }
         }
 
         /**
          * @brief 返回文件名
          */
-        public string FileName
-        {
+        public string FileName {
             get { return m_FileName; }
         }
 

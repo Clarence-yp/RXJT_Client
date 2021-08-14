@@ -15,8 +15,7 @@ namespace DashFire
             m_UserPoolSize = poolSize;
         }
 
-        public LinkedListDictionary<int, UserInfo> Users
-        {
+        public LinkedListDictionary<int, UserInfo> Users {
             get { return m_Users; }
         }
 
@@ -78,8 +77,8 @@ namespace DashFire
 
         private UserInfo NewUserInfo()
         {
-            UserInfo user = null;
             int id = GenNextId();
+            UserInfo user;
             if (m_UnusedUsers.Count > 0)
             {
                 user = m_UnusedUsers.Dequeue();
@@ -95,7 +94,7 @@ namespace DashFire
 
         private UserInfo NewUserInfo(int id)
         {
-            UserInfo user = null;
+            UserInfo user;
             if (m_UnusedUsers.Count > 0)
             {
                 user = m_UnusedUsers.Dequeue();

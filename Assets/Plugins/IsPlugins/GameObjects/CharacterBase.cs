@@ -108,10 +108,8 @@ namespace DashFire
             {
                 m_CollideObjects.Remove(obj);
             }
-            public object RealObject
-            {
-                get
-                {
+            public object RealObject {
+                get {
                     return m_CharacterInfo;
                 }
             }
@@ -125,27 +123,22 @@ namespace DashFire
             private SpatialObjType m_ObjType = SpatialObjType.kNPC;
             private List<ISpaceObject> m_CollideObjects = new List<ISpaceObject>(); // 与当前物体碰撞的物体
         }
-        public DashFireSpatial.CellPos SightCell
-        {
+        public DashFireSpatial.CellPos SightCell {
             get { return m_SightCell; }
             set { m_SightCell = value; }
         }
-        public bool CurBlueCanSeeMe
-        {
+        public bool CurBlueCanSeeMe {
             get { return m_CurBlueCanSeeMe; }
             set { m_CurBlueCanSeeMe = value; }
         }
-        public bool LastBlueCanSeeMe
-        {
+        public bool LastBlueCanSeeMe {
             get { return m_LastBlueCanSeeMe; }
         }
-        public bool CurRedCanSeeMe
-        {
+        public bool CurRedCanSeeMe {
             get { return m_CurRedCanSeeMe; }
             set { m_CurRedCanSeeMe = value; }
         }
-        public bool LastRedCanSeeMe
-        {
+        public bool LastRedCanSeeMe {
             get { return m_LastRedCanSeeMe; }
         }
         public void PrepareUpdateSight()
@@ -155,17 +148,13 @@ namespace DashFire
             m_LastRedCanSeeMe = m_CurRedCanSeeMe;
             m_CurRedCanSeeMe = false;
         }
-        public bool IsNpc
-        {
-            get
-            {
+        public bool IsNpc {
+            get {
                 return m_CastNpcInfo != null;
             }
         }
-        public bool IsUser
-        {
-            get
-            {
+        public bool IsUser {
+            get {
                 return m_CastUserInfo != null;
             }
         }
@@ -284,45 +273,35 @@ namespace DashFire
             return m_MeetEnemyImpact;
         }
 
-        public long ReleaseTime
-        {
+        public long ReleaseTime {
             get { return m_ReleaseTime; }
             set { m_ReleaseTime = value; }
         }
 
-        public long DeadTime
-        {
-            get
-            {
+        public long DeadTime {
+            get {
                 return m_DeadTime;
             }
-            set
-            {
+            set {
                 m_DeadTime = value;
             }
         }
-        public long EmptyBloodTime
-        {
-            get
-            {
+        public long EmptyBloodTime {
+            get {
                 return m_EmptyBloodTime;
             }
-            set
-            {
+            set {
                 m_EmptyBloodTime = value;
             }
         }
-        public bool CauseStiff
-        {
+        public bool CauseStiff {
             get { return m_CauseStiff; }
         }
-        public bool AcceptStiff
-        {
+        public bool AcceptStiff {
             get { return m_AcceptStiff; }
             set { m_AcceptStiff = value; }
         }
-        public bool AcceptStiffEffect
-        {
+        public bool AcceptStiffEffect {
             get { return m_AcceptStiffEffect; }
             set { m_AcceptStiffEffect = value; }
         }
@@ -355,11 +334,9 @@ namespace DashFire
             return GetLevel() + 100;
         }
 
-        public float FightingScore
-        {
+        public float FightingScore {
             get { return m_FightingScore; }
-            set
-            {
+            set {
                 m_FightingScore = value;
                 if (null != mFightingScoreChangeCB)
                 {
@@ -376,38 +353,32 @@ namespace DashFire
         /**
          * @brief 
          */
-        public int Hp
-        {
+        public int Hp {
             get { return m_Hp; }
         }
 
         /**
          * @brief 
          */
-        public int Rage
-        {
+        public int Rage {
             get { return m_Rage; }
         }
 
         /**
          * @brief 
          */
-        public int Energy
-        {
+        public int Energy {
             get { return m_Energy; }
         }
 
-        public bool GfxDead
-        {
+        public bool GfxDead {
             get { return m_GfxDead; }
             set { m_GfxDead = value; }
         }
 
-        public bool SuperArmor
-        {
+        public bool SuperArmor {
             get { return m_SuperArmor; }
-            set
-            {
+            set {
                 if (m_SuperArmor != value)
                 {
                     m_IsArmorChanged = true;
@@ -415,17 +386,14 @@ namespace DashFire
                 }
             }
         }
-        public bool UltraArmor
-        {
-            get
-            {
+        public bool UltraArmor {
+            get {
                 if (m_UltraArmor || !m_AcceptStiff)
                     return true;
                 else
                     return false;
             }
-            set
-            {
+            set {
                 if (m_UltraArmor != value)
                 {
                     m_IsArmorChanged = true;
@@ -433,19 +401,16 @@ namespace DashFire
                 }
             }
         }
-        public bool IsArmorChanged
-        {
+        public bool IsArmorChanged {
             get { return m_IsArmorChanged; }
             set { m_IsArmorChanged = value; }
         }
 
-        public float HpMaxCoefficient
-        {
+        public float HpMaxCoefficient {
             get { return m_HpMaxCoefficient; }
             set { m_HpMaxCoefficient = value; }
         }
-        public float EnergyMaxCoefficient
-        {
+        public float EnergyMaxCoefficient {
             get { return m_EnergyMaxCoefficient; }
             set { m_EnergyMaxCoefficient = value; }
         }
@@ -453,8 +418,7 @@ namespace DashFire
         /**
          * 攻击范围系数（在0~1之间） 
          */
-        public float AttackRangeCoefficient
-        {
+        public float AttackRangeCoefficient {
             get { return m_AttackRangeCoefficient; }
             set { m_AttackRangeCoefficient = value; }
         }
@@ -462,8 +426,7 @@ namespace DashFire
         /**
          * 对象的速度系数（在0~1之间）
          */
-        public float VelocityCoefficient
-        {
+        public float VelocityCoefficient {
             get { return m_VelocityCoefficient; }
             set { m_VelocityCoefficient = value; }
         }
@@ -471,14 +434,12 @@ namespace DashFire
         /**
          * @brief 视野范围
          */
-        public float ViewRange
-        {
+        public float ViewRange {
             get { return m_ViewRange; }
             set { m_ViewRange = value; }
         }
 
-        public float GohomeRange
-        {
+        public float GohomeRange {
             get { return m_GohomeRange; }
             set { m_GohomeRange = value; }
         }
@@ -487,18 +448,15 @@ namespace DashFire
         public bool IsFlying { set; get; }
         public Vector3 FlyStartPos { set; get; }
 
-        public float Combat2IdleTime
-        {
+        public float Combat2IdleTime {
             get { return m_Combat2IdleTime; }
             set { m_Combat2IdleTime = value; }
         }
-        public int Combat2IdleSkill
-        {
+        public int Combat2IdleSkill {
             get { return m_Combat2IdleSkill; }
             set { m_Combat2IdleSkill = value; }
         }
-        public string Idle2CombatWeaponMoves
-        {
+        public string Idle2CombatWeaponMoves {
             get { return m_Idle2CombatWeaponMoves; }
             set { m_Idle2CombatWeaponMoves = value; }
         }
@@ -614,62 +572,53 @@ namespace DashFire
             m_CampId = val;
         }
 
-        public int KillerId
-        {
+        public int KillerId {
             get { return m_KillerId; }
             set { m_KillerId = value; }
         }
 
-        public long LastAttackedTime
-        {
+        public long LastAttackedTime {
             get { return m_LastAttackedTime; }
             set { m_LastAttackedTime = value; }
         }
 
-        public long LastAttackTime
-        {
+        public long LastAttackTime {
             get { return m_LastAttackTime; }
             set { m_LastAttackTime = value; }
         }
 
-        public MyDictionary<int, AttackerInfo> AttackerInfos
-        {
+        public MyDictionary<int, AttackerInfo> AttackerInfos {
             get { return m_AttackerInfos; }
         }
         /// <summary>
         /// 避让半径（1=1格，2=3格，3=5格，...）
         /// </summary>
-        public int AvoidanceRadius
-        {
+        public int AvoidanceRadius {
             get { return m_AvoidanceRadius; }
             set { m_AvoidanceRadius = value; }
         }
         /// <summary>
         /// 掩体ID（使用掩体场景逻辑ID）
         /// </summary>
-        public int BlindageId
-        {
+        public int BlindageId {
             get { return m_BlindageId; }
             set { m_BlindageId = value; }
         }
         /// <summary>
         /// 对象所处的掩体区域，如果不在掩体中，则为null
         /// </summary>
-        public Vector3[] Blindage
-        {
+        public Vector3[] Blindage {
             get { return m_Blindage; }
             set { m_Blindage = value; }
         }
-        public long BlindageLeftTime
-        {
+        public long BlindageLeftTime {
             get { return m_BlindageLeftTime; }
             set { m_BlindageLeftTime = value; }
         }
 
         public OnBeginAttackEvent OnBeginAttack;
 
-        public Shape Shape
-        {
+        public Shape Shape {
             get { return m_Shape; }
             set { m_Shape = value; }
         }
@@ -716,14 +665,12 @@ namespace DashFire
             }
         }
 
-        public int StateFlag
-        {
+        public int StateFlag {
             get { return m_StateFlag; }
             set { m_StateFlag = value; }
         }
 
-        public int GfxStateFlag
-        {
+        public int GfxStateFlag {
             get { return m_GfxStateFlag; }
             set { m_GfxStateFlag = value; }
         }
@@ -951,8 +898,7 @@ namespace DashFire
             }
         }
 
-        public bool LevelChanged
-        {
+        public bool LevelChanged {
             get { return m_LevelChanged; }
             set { m_LevelChanged = value; }
         }
@@ -984,38 +930,29 @@ namespace DashFire
                 return m_ControlledObject.GetRealControlledObject();
             return this;
         }
-        public CharacterInfo ControllerObject
-        {
+        public CharacterInfo ControllerObject {
             get { return m_ControllerObject; }
             set { m_ControllerObject = value; }
         }
-        public CharacterInfo ControlledObject
-        {
+        public CharacterInfo ControlledObject {
             get { return m_ControlledObject; }
             set { m_ControlledObject = value; }
         }
-        public bool CanControl
-        {
+        public bool CanControl {
             get { return m_IsMecha || m_IsHorse; }
         }
-        public bool IsTask
-        {
-            get
-            {
+        public bool IsTask {
+            get {
                 return m_IsTask;
             }
         }
-        public bool IsPvpTower
-        {
-            get
-            {
+        public bool IsPvpTower {
+            get {
                 return m_IsPvpTower;
             }
         }
-        public bool IsControlMecha
-        {
-            get
-            {
+        public bool IsControlMecha {
+            get {
                 bool ret = false;
                 if (null != m_ControlledObject && m_ControlledObject.m_IsMecha)
                 {
@@ -1024,10 +961,8 @@ namespace DashFire
                 return ret;
             }
         }
-        public bool IsControlHorse
-        {
-            get
-            {
+        public bool IsControlHorse {
+            get {
                 bool ret = false;
                 if (null != m_ControlledObject && m_ControlledObject.m_IsHorse)
                 {
@@ -1045,8 +980,7 @@ namespace DashFire
         {
             return m_SkillStateInfo;
         }
-        public ISkillController SkillController
-        {
+        public ISkillController SkillController {
             get { return m_SkillController; }
             set { m_SkillController = value; }
         }
@@ -1058,19 +992,15 @@ namespace DashFire
         {
             return m_LegacyStateInfo;
         }
-        public DashFireSpatial.ISpaceObject SpaceObject
-        {
+        public DashFireSpatial.ISpaceObject SpaceObject {
             get { return m_SpaceObject; }
         }
-        public SceneContextInfo SceneContext
-        {
+        public SceneContextInfo SceneContext {
             get { return m_SceneContext; }
             set { m_SceneContext = value; }
         }
-        public ISpatialSystem SpatialSystem
-        {
-            get
-            {
+        public ISpatialSystem SpatialSystem {
+            get {
                 ISpatialSystem sys = null;
                 if (null != m_SceneContext)
                 {
@@ -1079,10 +1009,8 @@ namespace DashFire
                 return sys;
             }
         }
-        public SceneLogicInfoManager SceneLogicInfoManager
-        {
-            get
-            {
+        public SceneLogicInfoManager SceneLogicInfoManager {
+            get {
                 SceneLogicInfoManager mgr = null;
                 if (null != m_SceneContext)
                 {
@@ -1091,10 +1019,8 @@ namespace DashFire
                 return mgr;
             }
         }
-        public NpcManager NpcManager
-        {
-            get
-            {
+        public NpcManager NpcManager {
+            get {
                 NpcManager mgr = null;
                 if (null != m_SceneContext)
                 {
@@ -1103,10 +1029,8 @@ namespace DashFire
                 return mgr;
             }
         }
-        public UserManager UserManager
-        {
-            get
-            {
+        public UserManager UserManager {
+            get {
                 UserManager mgr = null;
                 if (null != m_SceneContext)
                 {
@@ -1115,10 +1039,8 @@ namespace DashFire
                 return mgr;
             }
         }
-        public BlackBoard BlackBoard
-        {
-            get
-            {
+        public BlackBoard BlackBoard {
+            get {
                 BlackBoard blackBoard = null;
                 if (null != m_SceneContext)
                 {
@@ -1128,21 +1050,17 @@ namespace DashFire
             }
         }
 
-        public float Cross2StandTime
-        {
+        public float Cross2StandTime {
             get { return m_Cross2StandTime; }
         }
-        public float Cross2RunTime
-        {
+        public float Cross2RunTime {
             get { return m_Cross2RunTime; }
         }
-        public float DeadAnimTime
-        {
+        public float DeadAnimTime {
             get { return m_DeadAnimTime; }
         }
 
-        public int OwnerId
-        {
+        public int OwnerId {
             set { m_OwnerId = value; }
             get { return m_OwnerId; }
         }

@@ -15,25 +15,25 @@ using System.Collections.Generic;
 namespace DashFire
 {
 
-  /**
-   * @brief 数据接口
-   */
-  public interface IData
-  {
     /**
-     * @brief 提取数据
-     *
-     * @param node
-     *
-     * @return 
+     * @brief 数据接口
      */
-    bool CollectDataFromDBC(DBC_Row node);
+    public interface IData
+    {
+        /**
+         * @brief 提取数据
+         *
+         * @param node
+         *
+         * @return 
+         */
+        bool CollectDataFromDBC(DBC_Row node);
 
-    /**
-     * @brief 获取数据ID
-     *
-     * @return 
-     */
-    int GetId();
-  }
+        /**
+         * @brief 获取数据ID
+         *
+         * @return 
+         */
+        int GetId();
+    }
 }

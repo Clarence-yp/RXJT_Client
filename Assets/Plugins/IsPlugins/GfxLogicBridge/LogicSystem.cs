@@ -42,16 +42,13 @@ namespace DashFire
         {
             GfxSystem.Instance.VisitGameObject(visitor);
         }
-        public static GameObject PlayerSelf
-        {
+        public static GameObject PlayerSelf {
             get { return GfxSystem.Instance.PlayerSelf; }
         }
-        public static SharedGameObjectInfo PlayerSelfInfo
-        {
+        public static SharedGameObjectInfo PlayerSelfInfo {
             get { return GfxSystem.Instance.PlayerSelfInfo; }
         }
-        public static bool IsLastHitUi
-        {
+        public static bool IsLastHitUi {
             get { return GfxSystem.Instance.IsLastHitUi; }
             set { GfxSystem.Instance.IsLastHitUi = value; }
         }
@@ -275,34 +272,26 @@ namespace DashFire
         {
             GfxSystem.Instance.ProxyPublishLogicEvent(evt, group, args);
         }
-        public static PublishSubscribeSystem EventChannelForGfx
-        {
-            get
-            {
+        public static PublishSubscribeSystem EventChannelForGfx {
+            get {
                 return GfxSystem.Instance.EventChannelForGfx;
             }
         }
 
-        public static BeforeLoadSceneDelegation OnBeforeLoadScene
-        {
-            get
-            {
+        public static BeforeLoadSceneDelegation OnBeforeLoadScene {
+            get {
                 return GfxSystem.Instance.OnBeforeLoadScene;
             }
-            set
-            {
+            set {
                 GfxSystem.Instance.OnBeforeLoadScene = value;
             }
         }
 
-        public static AfterLoadSceneDelegation OnAfterLoadScene
-        {
-            get
-            {
+        public static AfterLoadSceneDelegation OnAfterLoadScene {
+            get {
                 return GfxSystem.Instance.OnAfterLoadScene;
             }
-            set
-            {
+            set {
                 GfxSystem.Instance.OnAfterLoadScene = value;
             }
         }
